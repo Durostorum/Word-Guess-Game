@@ -1,0 +1,62 @@
+.main-header {
+    border-bottom: 3px dotted #604439;
+}
+h2 {
+    font-family: 'Titan One', cursive;
+    font-size: 2.5em;
+    color: #78866b;
+    margin-top: 65px;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    transform: rotate(-10deg);
+}
+
+h4 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.75em;
+    text-align: center;
+    margin-top: -55px;
+} 
+
+#guessedLetters {
+    color: red;
+}
+
+#pressPlay {
+    color: #002d3c;
+    margin-top: 0;
+    margin-bottom: -40px;
+}
+
+#answerWord {
+    letter-spacing: .25em;
+    margin-top: 0;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+      }
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.middle {
+    flex: auto;
+    order: 2;
+    padding: 30px;
+    border-right: 4px solid #78866b;
+}
+
+.right{
+    order: 4;
+    overflow-wrap: break-word;
+}
