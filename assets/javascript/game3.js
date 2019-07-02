@@ -11,7 +11,7 @@ var computerPick; // the word that is being played
 
 
 function startUp() {
-    computerPick = countries[Math.floor(Math.random() * countries.length)];
+    computerPick = countries[Math.floor(Math.random() * countries.length)].toUpperCase();
 
     guessedWord = [];
 
