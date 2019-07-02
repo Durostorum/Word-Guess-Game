@@ -1,14 +1,33 @@
+body {
+    background-image: url(https://geology.com/world/world-map.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    background: rgba(215, 215, 235, 0.6);
+    border-radius: 30px;
+}
+header {
+    height: 250px;
+    margin-bottom: 5%;
+}
 .main-header {
     border-bottom: 3px dotted #604439;
 }
 h2 {
+    width: 510px;
     font-family: 'Titan One', cursive;
-    font-size: 2.5em;
+    font-size: 4em;
     color: #78866b;
-    margin-top: 65px;
-    margin-left: 15%;
+    margin-top: 3.3%;
+    margin-left: 35%;
+    border: 4px dashed red;
     margin-bottom: 10%;
     transform: rotate(-10deg);
+}
+span {
+    margin: 0;
+    padding: 0;
 }
 
 h4 {
@@ -26,14 +45,17 @@ p {
 }
 
 #pressPlay {
-    color: #002d3c;
+    color: #2231ff;
     margin-top: 0;
     margin-bottom: -40px;
+    font-size: 2rem;
 }
 
 #answerWord {
     letter-spacing: .25em;
     margin-top: 0;
+    font-size: 
+    color: black
 }
 
 main {
