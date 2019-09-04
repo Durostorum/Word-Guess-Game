@@ -2,7 +2,7 @@
 
 
 ## Live Link
-https://Durostorum.github.io/Hangman-Game/
+https://Durostorum.github.io/Word-Guess-Game/
 
 ## Description
 - Simply begin typing to enter your guesses
